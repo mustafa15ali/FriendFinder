@@ -1,10 +1,10 @@
-var express = require("express");
-var bodyParser = require("body-parser");
+let express = require("express");
+let bodyParser = require("body-parser");
 
 // EXPRESS CONFIGURATION
-var app = express();
+let app = express();
 
-var PORT = process.env.PORT || 8080;
+let PORT = process.env.PORT || 8080;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
